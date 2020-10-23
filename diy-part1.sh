@@ -20,7 +20,7 @@ sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.
 # OpenAppFilter
 sed -i '$a src-git openappfilter https://github.com/destan19/OpenAppFilter.git' feeds.conf.default
 # jd-dailybonus
-sed -i '$a src-git jd-dailybonus clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git' feeds.conf.default
+sed -i '$a src-git dailybonus clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git' feeds.conf.default
 # aliddns
 sed -i '$a src-git aliddns clone https://github.com/chenhw2/luci-app-aliddns.git' feeds.conf.default
 # unblockneteasemusic
