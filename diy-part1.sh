@@ -10,6 +10,9 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 
+#生成差异化 seeds.config 文件（.config）
+#https://github.com/coolsnowwolf/lede/issues/4954#issuecomment-678725739
+
 # Uncomment a feed source
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
