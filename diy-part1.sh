@@ -21,14 +21,18 @@ sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.
 # OpenAppFilter
 sed -i '$a src-git openappfilter https://github.com/destan19/OpenAppFilter.git' feeds.conf.default
 
-# jd-dailybonus
-sed -i '$a src-git dailybonus https://github.com/jerrykuku/luci-app-jd-dailybonus.git' feeds.conf.default
-
-# aliddns
-sed -i '$a src-git aliddns https://github.com/chenhw2/luci-app-aliddns.git' feeds.conf.default
-
-# unblockneteasemusic
-sed -i '$a src-git unblockneteasemusic https://github.com/project-openwrt/luci-app-unblockneteasemusic.git' feeds.conf.default
-
 # OpenClash
 sed -i '$a src-git OpenClash https://github.com/vernesong/OpenClash.git' feeds.conf.default
+
+# jd-dailybonus
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/feeds/luci-app-jd-dailybonus
+#sed -i '$a src-git dailybonus https://github.com/jerrykuku/luci-app-jd-dailybonus.git' feeds.conf.default
+
+# aliddns
+git clone https://github.com/chenhw2/luci-app-aliddns.git package/feeds/luci-app-aliddns
+#sed -i '$a src-git aliddns https://github.com/chenhw2/luci-app-aliddns.git' feeds.conf.default
+
+# unblockneteasemusic
+git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic.git package/feeds/luci-app-aliddns
+#sed -i '$a src-git unblockneteasemusic https://github.com/project-openwrt/luci-app-unblockneteasemusic.git' feeds.conf.default
+
