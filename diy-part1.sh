@@ -22,17 +22,17 @@ sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.
 sed -i '$a src-git openappfilter https://github.com/destan19/OpenAppFilter.git' feeds.conf.default
 
 # jd-dailybonus
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
 #sed -i '$a src-git dailybonus clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git' feeds.conf.default
 
 # aliddns
-git clone https://github.com/chenhw2/luci-app-aliddns.git
+git clone https://github.com/honwen/luci-app-aliddns
 #sed -i '$a src-git aliddns clone https://github.com/chenhw2/luci-app-aliddns.git' feeds.conf.default
 
 # unblockneteasemusic
-git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic.git
+git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic
 #sed -i '$a src-git unblockneteasemusic clone https://github.com/project-openwrt/luci-app-unblockneteasemusic.git' feeds.conf.default
 
 # OpenClash
-git clone https://github.com/vernesong/OpenClash.git
+git clone https://github.com/vernesong/OpenClash
 #sed -i '$a src-git OpenClash clone https://github.com/vernesong/OpenClash.git' feeds.conf.default
