@@ -33,6 +33,6 @@ git clone https://github.com/chenhw2/luci-app-aliddns.git package/feeds/luci-app
 #sed -i '$a src-git aliddns https://github.com/chenhw2/luci-app-aliddns.git' feeds.conf.default
 
 # unblockneteasemusic
-git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic.git package/feeds/luci-app-aliddns
+git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic.git package/feeds/luci-app-unblockneteasemusic
 #sed -i '$a src-git unblockneteasemusic https://github.com/project-openwrt/luci-app-unblockneteasemusic.git' feeds.conf.default
 
