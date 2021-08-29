@@ -21,7 +21,7 @@
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 #bypass
-echo 'src-git bypass https://github.com/kiddin9/openwrt-bypass.git' >>feeds.conf.default
+#echo 'src-git bypass https://github.com/kiddin9/openwrt-bypass.git' >>feeds.conf.default
 
 # OpenClash
 echo 'src-git bypass https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
